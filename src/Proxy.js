@@ -26,17 +26,17 @@ export default class Proxy extends Component {
         // yarn eject抽离 问题 远程管理代码
         // git init / git add / git commit -m 'xx' / git remote xxx / git push 
 
-    proxy: {
-      "/api":{
-        target:'https://m.maoyan.com',
-        changeOrigin:true,
-        pathRewrite:{
-          "^/api":""
-        }
-      }
-    }
+    // proxy: {
+    //   "/api":{
+    //     target:'https://m.maoyan.com',
+    //     changeOrigin:true,
+    //     pathRewrite:{
+    //       "^/api":""
+    //     }
+    //   }
+    // }
 
-    axios.get("/")
+    axios.get("/")111111
   }
 
  
