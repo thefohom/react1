@@ -37,6 +37,7 @@ export default class Proxy extends Component {
     // }
 
     // axios.get("/")
+
   }
 
  
@@ -44,7 +45,7 @@ export default class Proxy extends Component {
   render(){
     return (
       <div>
-        proxy
+        proxy111111
       </div>
     )
   }
