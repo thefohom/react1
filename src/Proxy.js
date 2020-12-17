@@ -36,7 +36,7 @@ export default class Proxy extends Component {
     //   }
     // }
 
-    axios.get("/")111111
+    // axios.get("/")
   }
 
  
